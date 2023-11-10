@@ -1,0 +1,14 @@
+Package: LogisticSPSSlike
+Title: Automated Logistic Regression Tables akin to SPSS Output
+Version: 1.0.0
+Authors@R: 
+    person("Ruizhi", "Chai", , "drchairuizhi@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-0201-8477"))
+Description: This package provides a streamlined process for generating logistic regression tables in R that closely resemble the output format commonly seen in SPSS software. It is designed for users transitioning from SPSS to R who wish to retain familiarity with the logistic regression output terminology. Key features include the calculation of B values (log-odds coefficients) accessible via 'coef(fit)', Odds Ratios (OR) as exponentiated B values obtained through 'exp(coef(fit))', 95% Confidence Intervals (CI) for the OR derived from 'exp(confint(fit))', p-values from the summary of the model fit, and Wald statistics computed as the square of the Z values. The package ensures that variable names are consistent with those used in SPSS to reduce confusion and improve workflow efficiency for users accustomed to SPSS outputs.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    AER,
+    stats
