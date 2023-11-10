@@ -14,9 +14,13 @@
 #' formatFit(fit)
 #'
 LogisticSPSSlike<-function(fit){
+  # get p value from the glm object
   p<-summary(fit)$coefficients[,4]
+  # get wald value
   wald<-summary(fit)$coefficients[,3]^2
+  # get B value
   valueB<-coef(fit)
+  # get OR value
   valueOR<-exp(coef(fit))
   confitOR<-exp(confint(fit))
   data.frame(
