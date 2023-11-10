@@ -25,4 +25,4 @@ LogisticSPSSlike(fit)
 
 ## Credits
 
-This package was  developed by[Ruizhi Chai](https://github.com/sur-berry) in collaboration with  [Xiaobao Yang](https://github.com/sur-yang). 
+This package was  developed by [Ruizhi Chai](https://github.com/sur-berry) in collaboration with  [Xiaobao Yang](https://github.com/sur-yang). 
